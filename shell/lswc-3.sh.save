@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+	echo -n "files and directories: "
+	ls | wc -l
+elif [ $# -eq l ]; then
+	echo -n "files and directories: "
+	ls $l | wc -l
+else
+	
+
+exit 0
